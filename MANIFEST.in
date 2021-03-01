@@ -1,0 +1,4 @@
+include LICENSE.md
+include README.md
+recursive-include firebase/static *
+recursive-include firebase/templates *
