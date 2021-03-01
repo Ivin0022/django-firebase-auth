@@ -8,6 +8,9 @@ verify_ssl = true
 [packages]
 django = "*"
 djangorestframework = "*"
+django-phonenumber-field = {extras = ["phonenumbers"],version = "*"}
+firebase-admin = "*"
+django-environ = "*"
 
 [requires]
 python_version = "3.6"
