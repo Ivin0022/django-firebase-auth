@@ -8,9 +8,8 @@ verify_ssl = true
 [packages]
 django = "*"
 djangorestframework = "*"
-django-phonenumber-field = {extras = ["phonenumbers"],version = "*"}
-firebase-admin = "*"
 django-environ = "*"
+django-firebase-auth = {git = "https://github.com/Ivin0022/django-firebase-auth.git"}
 
 [requires]
 python_version = "3.6"
